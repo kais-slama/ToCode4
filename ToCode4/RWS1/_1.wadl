@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+  <doc xml:lang="en" title="http://localhost"/>
+  <resources base="http://localhost">
+    <resource path="ToCode4/RWS1/user.php" id="User.php">
+      <doc xml:lang="en" title="User.php"/>
+      <method name="GET" id="User.php 1">
+        <doc xml:lang="en" title="User.php 1"/>
+        <request/>
+        <response status="200">
+          <representation mediaType="application/json"/>
+        </response>
+        <response status="">
+          <representation mediaType="application/json"/>
+        </response>
+      </method>
+    </resource>
+  </resources>
+</application>
